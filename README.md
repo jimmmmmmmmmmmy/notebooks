@@ -18,30 +18,14 @@ Dependencies: `pandas`, `numpy`, and `matplotlib`.
   - Table of decline events with recovery stats.
 - Data from [S&P 500 Historical Data](https://finance.yahoo.com/quote/%5EGSPC/history/)
 
-### 2. RSI-Based Trading Signals
+### 2. Relative Strength Index & 1-Day Returns on the S&P
 - Examines next-day returns after extreme RSI readings (<20 oversold, >80 overbought).
-- Features:
-  - Bar plots of average returns by year.
-  - Two versions:
-    1. Basic RSI signals by year.
-    2. RSI signals with subplots comparing price above/below yearly open.
+- At some point in the 1980's the index became mean reverting
 - Data from 'CSV/SPX_RSI_2.csv'
 
-### 3. Options Trading Analysis
-- Analyzes price reactions and options strategies for economic events (e.g., ISM Manufacturing PMI).
-- Features:
-  - Bar charts of price reactions, call/put profit multiples, and straddle prices.
-  - Side-by-side boxplots of event vs. baseline distributions.
-  - 3x2 subplot layout.
+### 3. Headline Event Straddles / Analysis
+- Analyzes price reactions and straddles pricing for economic events (e.g., ISM Manufacturing PMI).
 - Data from 'NQ_QQQ_ATR.csv', 'QQQ_options_data.csv'
-
----
-
-## Usage
-- Clone the repository: `git clone <repository-url>`
-- Install dependencies: `pip install pandas numpy matplotlib`
-- Run notebooks in Jupyter Notebook or compatible environment.
-- Adjust dataset paths as needed.
 
 ---
 
